@@ -4,11 +4,27 @@
     margin-right: 10px;
 }
 
-#hero img {
+#profile img {
     border: 1px solid #000;
     border-radius: 0.5rem;
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.8);
     height: auto;
     max-width: 800px;
     width: 100%;
+}
+
+/* Project */
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
