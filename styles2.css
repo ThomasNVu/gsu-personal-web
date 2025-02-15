@@ -65,20 +65,56 @@ nav a {
 
 nav a:link, 
 nav a:visited {
-    color: cyan;
+    color: white;
     text-decoration: none;
 }
 
 nav a:hover, 
 nav a:active, 
 nav a:focus {
-    color: white;
+    color: cyan;
     cursor: pointer;
     text-decoration: underline;
-    text-shadow: 0 0 0.5rem white;
+    text-shadow: 0 0 0.5rem cyan;
 }
 
 /* Profile */
+
+#profile {
+    color: white;
+    background: radial-gradient(gray,#1F2937,#000);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.8);
+    padding: 0 15vw;
+}
+
+#profile img {
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    height: auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+#profile article {
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+#profile article div {
+    width: 100%;
+}
+
+#profile h2 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+#profile p {
+    font-size: 1.1rem;
+}
 
 #profile img {
     border: 1px solid #000;
@@ -88,6 +124,8 @@ nav a:focus {
     max-width: 800px;
     width: 100%;
 }
+
+
 
 /* Project */
 
